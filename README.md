@@ -29,7 +29,7 @@ The application follows an API-first architecture where the backend is developed
 
 ```bash
 cd backend
-cp .env.example .env  #mongodb+srv://videoapp_test:VideoApp123@cluster0.iljm2ry.mongodb.net/videoapp?authSource=admin&retryWrites=true&w=majority
+cp .env.example .env  #mongodb+srv://username:password@cluster.mongodb.net/videoapp?retryWrites=true&w=majority
 pip install -r requirements.txt
 python app.py
 ```
@@ -78,3 +78,4 @@ MongoDB: Cloud Atlas database used
 JWT Auth: Secure token-based authentication
 
 Full CRUD: Complete video/user management
+
